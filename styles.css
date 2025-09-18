@@ -1,15 +1,19 @@
 body {
     background-color: #F3E5D7;
-    margin: 33.333%;
+    margin: 25%;
     font-family: "Young Serif";
     font-weight: 400;
 }
 
 a {
+    display: block;
     text-decoration: none;
     color: white;
     background: #7A284E;
-    font-size: larger;
+    font-size: 26px;
+    padding: 24px 12px 24px 12px;
+    border-radius: 12px;
+    margin-bottom: 36px;
 }
 
 ::placeholder {
@@ -17,13 +21,23 @@ a {
 }
 
 input {
+    display: block;
+    width: 96%;
     background: #FFF7FB;
     border: 0px solid;
-    font-size: larger;
+    font-size: 26px;
+    padding: 24px 12px 24px 12px;
+    border-radius: 12px;
+    margin-bottom: 24px;
 }
 
 .search {
     background: white;
-    padding: 12px;
-    border-radius: 12px;
+    padding: 40px;
+    border-radius: 24px;
+}
+
+hr {
+    margin-top: 36px;
+    border-top: 1px solid #312E2C;
 }
