@@ -1,6 +1,8 @@
 body {
     background-color: #F3E5D7;
     margin: 33.333%;
+    font-family: "Young Serif";
+    font-weight: 400;
 }
 
 a {
@@ -10,9 +12,12 @@ a {
     font-size: larger;
 }
 
+::placeholder {
+    color: #E8CEDA;
+}
+
 input {
     background: #FFF7FB;
-    color: #E8CEDA;
     border: 0px solid;
     font-size: larger;
 }
